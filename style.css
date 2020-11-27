@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+#container{
+    font-family: 'Comfortaa', cursive;
+    display: block;
+    background:  linear-gradient(35deg, rgb(243, 116, 94), rgb(255, 221, 157));
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#title{
+    padding-top: 50px;
+    text-align: center;
+    
+}
+#description{
+    font-size: smaller;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+#name,
+#email,
+#number,
+#dropdown,
+#review{
+    font-size: 14pt;
+    width: 100%;
+}
+
+#survey-form{
+    display: block;
+    text-align: left;
+    background: rgba(99, 99, 99, 0.247);
+    padding: 15px 20px 15px 20px;
+}
+.fieldset{
+    border: none;
+    background: rgba(128, 128, 128, 0.301);
+    margin:20px 0 20px 0;
+}
+#name-label,
+#email-label,
+#number-label,
+#dropdown{
+        text-align: center;
+}
+#submitcon{
+    display: block;
+   
+}
+#submit{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 3% 3% 3% 3%;
+    padding: 10px;
+    background-color: rgb(14, 123, 248); 
+    font-size: 15pt;
+}

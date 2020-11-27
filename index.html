@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="title">Surfer Magazine Survey Form</h1>
+        <p id="description">Thank you for taking your time to help us learn about your surfing.</p>
+        <form action="" id="survey-form">
+            <label for="name" id="name-label">Full name:</label><br><br>
+            <input type="text" id="name" name="name" placeholder="Enter your first and last name" size="35" required><br><br>
+            <label for="email" id="email-label">E-mail:</label><br><br>
+            <input type="email" id="email" name="email" placeholder="Enter your e-mail address" size="35" required><br><br>
+            <label for="number" id="number-label">How many boards you own?</label><br><br>
+            <input type="number" id="number" name="number" min="1" max="99"
+                placeholder="Minimum: 1, maximum: 99" size="35"><br><br>
+            <label for="dropdown">Style of your surf flow:</label><br><br>
+            <select name="dropdown" id="dropdown">
+                <option value="" disabled selected hidden>Choose your style..</option>
+                <option value="longboard">Longboarder</option>
+                <option value="shortboard">Ripping on a shorty</option>
+                <option value="fish">Fish like Machado</option>
+                <option value="boogie">Boogie like half Canarias</option>
+            </select>
+            <fieldset class="fieldset">
+                <legend>Gender</legend>
+                <div>
+                    <input type="radio" name="gender" value="gender">
+                    <label for="gender">Female</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" value="gender">
+                    <label for="gender">Male</label>
+                </div>
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend>What are your favorite brands?</legend>
+                <div>
+                    <input type="checkbox" id="future" name="future" value="Future">
+                    <label for="future"> Future</label><br>
+                    <input type="checkbox" id="fcs" name="fcs" value="FCS">
+                    <label for="fcs"> FCS</label><br>
+                    <input type="checkbox" id="pyzel" name="pyzel" value="Pyzel">
+                    <label for="pyzel"> Pyzel</label><br>
+                    <input type="checkbox" id="rockisland" name="rockisland" value="Rockisland">
+                    <label for="rockisland"> Rockisland</label><br>
+                    <input type="checkbox" id="js" name="js" value="JS">
+                    <label for="js"> JS</label><br>
+                </div>
+            </fieldset>
+            <fieldset class="fieldset">
+                <div>
+                    <legend>Give us any desire we could include in our webshop!</legend><br>
+                    <textarea id="review" name="review">We are keen to infuse surf with technology..
+             </textarea>
+                </div>
+            </fieldset>
+            <div id="submitcon">
+                <input id="submit" type="submit" value="Send survey">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
